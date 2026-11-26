@@ -10,7 +10,7 @@ struct Test {
     double price;
 };
 
-class Patient {
+class Patient{
 private:
     int id, age;
     string name, contact;
@@ -36,4 +36,5 @@ Patient(const Patient &p)
     age = p.age;
     name = p.name;
     contact = p.contact;
+}
 }
