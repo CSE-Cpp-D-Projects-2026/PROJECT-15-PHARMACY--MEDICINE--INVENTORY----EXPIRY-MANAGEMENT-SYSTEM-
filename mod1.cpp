@@ -14,7 +14,7 @@ class Patient {
 private:
     int id, age;
     string name, contact;
-    static int total-Patients;
+    static int totalPatients;
 
 public:
     Patient()
@@ -25,7 +25,7 @@ public:
     contact = "";
 }    
 
-Patient(int i, string n, int a, string c) : id(i), age(a), name(n), contact(c) )
+Patient(int i, string n, int a, string c) : id(i), age(a), name(n), contact(c)
 {
  totalPatients++;
 }
