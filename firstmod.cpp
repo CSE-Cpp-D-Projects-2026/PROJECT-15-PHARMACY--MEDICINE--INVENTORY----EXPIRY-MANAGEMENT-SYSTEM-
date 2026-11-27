@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 #include <iostream>
@@ -90,4 +91,6 @@ int getId() const { return id; }
     friend bool operator<(const Medicine& a, const Medicine& b) {
         return a.name < b.name;
     }
+
+
 }
